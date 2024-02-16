@@ -1,0 +1,117 @@
+html {
+  font-size: 15px;
+  color: white;
+}
+
+body {
+  background-color: black;
+}
+
+h2 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 2em;
+}
+.main-box {
+  margin: auto;
+  width: 100%;
+  max-width: 70rem;
+  /* display: flex; 
+  flex-direction: column;*/
+}
+
+.head {
+  /* background-color: aqua; */
+}
+
+.head img {
+  display: block;
+  width: 100%;
+  max-width: 20rem;
+  margin: auto;
+  padding: 2em 0 2em 0;
+}
+
+.mission-image {
+  background: url('./images/banner-image.png') center no-repeat;
+  min-height: 36rem;
+  width: 100%;
+  display: block;
+}
+
+.mission-image h2 {
+  text-align: center;
+  padding-top: 20rem;
+  text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+}
+
+.mission-image p {
+background-color: black;
+text-align: center;
+}
+
+.player {
+  text-align: center;
+  padding-top: 3em;
+}
+
+.mission-statement p {
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.collabs {
+  background: url('./images/shine-melville.jpg') center;
+  text-align: center;
+}
+
+.collabs h2 {
+  padding-top: 0.5em;
+}
+
+.collabs-tbl  {
+  max-width: 90rem;
+  width: 100%;
+}
+
+.collabs-tbl img {
+  max-width: 12em;
+}
+
+.collabs-tbl h3 { 
+ margin: 0;
+} 
+
+.collabs-tbl p { 
+  margin: 0 0 0.5em 0;
+ } 
+
+.footer {
+  text-align: right;
+}
+
+@media (min-width: 50em) {
+  .mission {
+    display: flex;
+  }
+}
+@media (min-width: 50em) {
+  .collabs {
+    width: 70rem;
+    margin: auto;
+  }
+  .collabs-tbl {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* width: 90rem;   */
+  }
+  .collabs-tbl img {
+    max-width: 20rem;
+  }
+}
+
+
+
+
+
+
+
